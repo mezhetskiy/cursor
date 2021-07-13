@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #e5e5e5;
+    align-items: center;
 }
 .first-cookie {
     font-family: 'Inter', sans-serif;
@@ -18,16 +22,10 @@ body {
     width: 922px;
     height: 40px;
     color: #fff;
-    font-family: 'Inter';
+    padding: 16px 42px 16px 120px;
     font-size: 13px;
     font-style: normal;
-    font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
 }
 .first-cookie>a {
     font-family: 'Inter';
@@ -35,81 +33,355 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: 106px;
+    height: 36px;
     color: #4AD295;
-    top: 8px;
-    left: 10px;
-    padding-top: 26px;
+    padding: 26px 20px 26px 0;
 }
 .first-cookie>button {
     width: 130px;
-    height: 36px;
-    top: 8px;
-    left: 10px;
+    height: 46px;
+    padding: 8px 10px;
     background: #4AD295;
     color: #fff;
-    font-family: 'Inter';
     font-size: 12px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 5px;
+    margin: 18px 120px 18px 0;
+    border-radius: 2px;
+    border-style: none;
 }
 .second-cookie {
+    display: flex;
+    max-width: 100%;
     width: 1440px;
     height: 52px;
+    background: #2B2627;
+    margin-top: 24px;
+    justify-content: center;
+    font-family: "inter", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+}
+.second-cookie>p>a {
+    color: #ffffff;
+}
+
+.second-cookie>p {
+    margin: 16px 20px 16px 8px;
 }
 
 .third-cookie {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
     width:560px;
     height: 72px;
+    border-radius: 16px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+.third-cookie>img {
+    padding: 18px 10px 18px 16px;
 }
 
-.fourth.cookie {
-    height: 64px;
-    width: 560px;
-    left: 0px;
-    top: 96px;
-    border-radius: 10px;
-    padding: 12px, 16px, 12px, 16px;
+.third-cookie>p {
+    width: 347px;
+    height: 40px;
+    padding: 16px 10px 16px 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.third-cookie>.decline-button {
+    width: 63px;
+    height: 28px;
+    padding: 4px 10px;
+    margin: 22px 10px 22px 10px;
+    border-radius: 8px;
+    border-style: none;
+    background: #0D0C220D;
+    color:#0D0C22;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+.third-cookie>.allow-button{
+    width: 52px;
+    height: 28px;
+    padding: 4px 10px;
+    margin: 22px 16px 22px 0;
+    border-radius: 8px;
+    border-style: none;
+    background: #EA4C89;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.third-cookie>p>a {
+    color: #ea4c89;
+}
+.fourth-cookie {
+display: flex;
+width: 560px;
+height: 64px;
+margin-top: 24px;
+font-family: 'Inter', sans-serif;
+background: #26262B;
+border-radius: 10px;
+}
+
+.fourth-cookie>p {
+    width: 469px;
+    height: 40px;
+    padding: 12px 10px 12px 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff
+}
+
+.fourth-cookie>p>a {
+    color: #ffa500;
+}
+
+.fourth-cookie>button {
+width: 49px;
+height: 28px;
+border-radius: 8px;
+border-style: none;
+padding: 4px 10px;
+margin: 18px 16px 18px 10px;
+background: #fff;
+font-size: 12px;
+font-style: normal;
+font-weight: 400px;
+line-height: 20px;
 }
 
 .fifth-cookie {
-    height: 206px;
-    width: 360px;
-    left: 0px;
-    top: 0px;
+width: 360px;
+height: 206px;
+margin-top: 72px;
+font-family: 'Roboto', sans-serif;
+border-radius: 6px;
+border-style: none;
+background: #1C2540F2;
+}
+
+.fifth-cookie>h3 {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 121px;
+    height: 20px;
+    margin: 24px 215px 10px 24px;
+    color: #fff;
+}
+
+.fifth-cookie>p {
+    width: 312px;
+    height: 80px;
+    color: #fff;
+    margin: 0 24px 16px 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fifth-cookie>p>a {
+    color: #fff;
+}
+
+.fifth-cookie>.link-preference {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    width: 160px;
+    height: 16px;
+    margin: 0 67px 32px 24px;
+}
+
+.fifth-cookie>button {
+    display: inline;
+    width: 85px;
+    height: 32px;
     border-radius: 6px;
-    padding: 24px;
+    border-style: none;
+    background: #09B3AF;
+    color: #fff;
 }
 
 .sixth-cookie {
+    font-family: 'Roboto', sans-serif;
     height: 170px;
     width: 360px;
-    left: 400px;
-    top: 0px;
     border-radius: 16px;
-    padding: 16px;
+    border-style: none;
+    background: #fff;
+    margin-top: 72px;
+}
+
+.sixth-cookie>h3 {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 500;
+    width: 132px;
+    height: 20px;
+    margin: 16px 212px 10px 16px;
+    color:#0F181D;
+}
+
+.sixth-cookie>p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #687F8C;
+    margin: 10px 10px 10px 16px;
+}
+
+.sixth-cookie>.manage-cookie-button {
+    display: inline;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    width: 160px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 6px;
+    border-style: none;
+    color: #687f8c;
+    margin: 16px 8px 16px 16px;
+}
+
+.sixth-cookie>.accept-button {
+    display: inline;
+    width: 160px;
+    height: 32px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 6px;
+    border-style: none;
+    background: #40C1A7;
+    color:#fff;
 }
 
 .seventh-cookie {
-    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    margin-top: 72px;
     width: 320px;
-    left: 0px;
-    top: 0px;
+    height: 260px;
     border-radius: 20px;
-    padding: 32px;
+    border-style: none;
+    background: #fff;
+}
+.seventh-cookie>h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    color: #15295A;
+    width: 104px;
+    height: 48px;
+    margin: 32px 108px 0 108px;
+}
+.seventh-cookie>p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    width: 256px;
+    height: 72px;
+    color: #15295A;
+    padding: 0 32px 32px 32px;
+}
+.seventh-cookie>button {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    border-radius: 43px;
+    border-style: none;
+    background: #4A7EFF;
+    color: #fff;
+    width: 121px;
+    height: 44px;
+
 }
 
 .eight-cookie {
-    height: 137px;
-    width: 320px;
-    left: 360px;
-    top: 0px;
+   font-family: 'Roboto';
+   margin-top: 72px;
+   margin-bottom: 100px;
+   border-radius: 4px;
+   border-style: none;
+   width: 320px;
+   height: 137px;
+   background: #fff;
+}
+
+.eight-cookie>p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    padding: 16px 16px 16px 20px;
+
+}
+
+.eight-cookie>a {
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16px;
+    color: #6666ff;
+    width: 95px;
+    height: 17px;
+    margin: 20px 129px 24px 16px;
+    text-decoration: none;
+}
+
+.eight-cookie>button {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16px;
+    background: #6666ff;
+    color: #fff;
     border-radius: 4px;
-    padding: 16px;
+    border-style: none;
+    width: 64px;
+    height: 33px;
 }
