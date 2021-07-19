@@ -1,0 +1,225 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    }
+
+.top-section {
+    width: 1440px;
+    min-height: 500px;
+    background: #ED4C5C;
+    color: #fff;
+}
+.top-photo  {
+    float: right;
+    margin: 94px 216px 95px 0;
+}
+.top-title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    width: 445px;
+    height: 107px;
+    margin: 122px 81px 23px 165px;
+}
+.top-paragraph{
+    position: absolute;
+    width: 445px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+    padding: 253px 81px 42px 165px;
+    line-height: 140%;
+}
+.top-link {
+    cursor: pointer;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    margin: 357px 394px 111px 163px;
+}
+.contact-part {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 500px;
+    background: #fff;
+    left: 0px;
+    top: 500px;
+}
+.contact-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    width: 445px;
+    height: 107px;
+    margin: 117px 114px 0 176px;
+}
+.contact-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 434px;
+    height: 64px;
+    text-align: justify;
+    margin: 0 125px 223px 176px;
+}
+form {
+    min-width: 540px;
+    min-height: 305px;
+    margin: 117px 165px 123px 0;
+}
+input {
+    outline: none;
+}
+.first-name {
+    width: 255px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    padding-left: 31px;
+    color: rgba(19, 39, 67, 0,5);
+}
+.last-name {
+    width: 250px;
+    height: 60px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    padding-left: 31px;
+}
+.phone-number {
+    display: block;
+    width: 540px;
+    height: 60px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    padding-left: 31px;
+}
+.select-service {
+    display: block;
+    width: 540px;
+    height: 60px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    padding-left: 31px;
+}
+.button-submit {
+    display: block;
+    width: 160px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.footer-part {
+    width: 100%;
+    min-height: 435px;
+    background: #fafafa;
+}
+.bottom-part {
+    display: flex;
+}
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+.addres-title {
+    margin: 85px 219px 33px 166px;
+}
+.addres-p {
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 150%;
+    color: #101010;
+    margin: 0 30px 141px 166px;
+}
+.service-title {
+    margin: 85px 217px 28px 0;
+}
+.services-link {
+    margin: 0 30px 186px 0;
+}
+.example-link {
+    display: block;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch-title {
+    margin: 85px 100px 33px 0;
+}
+.get-in-touch>span {
+    cursor: pointer;
+}
+.mail {
+    margin-bottom: 11px;
+}
+.phone {
+    margin-bottom: 20px;
+}
+.pay-system {
+    margin-top: 85px;
+    margin-left: 0px;
+    margin-bottom: 33px;
+}
+.visa-mastercard {
+    margin-left: 120px;
+}
+.copyright {
+    width: 155px;
+    height: 14px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    padding: 0 1124px 86px 161px;
+}
