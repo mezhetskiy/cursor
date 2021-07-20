@@ -385,3 +385,6 @@ background: #1C2540F2;
     width: 64px;
     height: 33px;
 }
+button {
+    cursor: pointer;
+}
